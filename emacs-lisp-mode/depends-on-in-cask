@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: depends-on in Cask 
+# key: dpn
+# --
+(depends-on "$1")
