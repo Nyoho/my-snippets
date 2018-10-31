@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: includegraphics
+# key: ig
+# binding: direct-keybinding
+# --
+\includegraphics${1:[$2]}{$0}
