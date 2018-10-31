@@ -3,3 +3,5 @@
 # key: se
 # --
 \section{${1:section-name}}
+
+$0

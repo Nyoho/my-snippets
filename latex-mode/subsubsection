@@ -3,3 +3,5 @@
 # key: ssse
 # --
 \subsubsection{${1:subsubsection-name}}
+
+$0
