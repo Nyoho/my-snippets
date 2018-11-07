@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: zn
+# key: zn
+# --
+\Z/{$1}\Z$0
