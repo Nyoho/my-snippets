@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: make a fraction
+# key: ///////////
+# type: command
+# --
+TODOまだできてない:
+(let ((bounds)
+      (snippet-text ""))
+  (setq bounds (bounds-of-thing-at-point 'symbol))
+  (buffer-substring-no-properties (car bounds) (- (cdr bounds) 1))
+  (yas-expand-snippet (format "\\frac{%s}{}" snippet-text)))
+
