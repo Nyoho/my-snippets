@@ -1,4 +1,4 @@
-my-snippets
+My snippets
 ===========
 
-My snippets for yasnippets
+My snippets for [yasnippet](https://github.com/joaotavora/yasnippet)
