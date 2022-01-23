@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
 # name: math mode (display) \[ ... \]
-# key: math
+# key: mathh
 # --
 \[
   $1
-\]
-$0
+\]$0
