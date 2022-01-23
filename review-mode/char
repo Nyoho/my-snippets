@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: char inline
+# key: chi
+# --
+@<char>{$1}
