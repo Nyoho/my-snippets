@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: begin_src
+# key: <src
+# --
+#+begin_src ${1: $$(yas-completing-read "Prompt: "
+(append
+ '("C++")
+ (mapcar
+  (lambda (elm)
+    (substring (symbol-name elm) 3))
+  (cl-remove-if-not
+   (lambda (elm)
+     (string-prefix-p "ob-" (symbol-name elm)))
+   features))))}
+  $0
+#+end_src
