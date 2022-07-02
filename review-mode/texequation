@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: texequation 
+# key: texequation
+# --
+//texequation{
+$1
+//}
